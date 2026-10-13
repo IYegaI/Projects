@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    min-height: 100vh;
+    background: #070b14;
+    overflow-x: hidden;
+}
+
+#gameInterface {
+    margin: 2% 20% 0 20%
+}
+
+#gameName {
+    text-align: center;
+    font-size: 450%;
+    font-family: "Press Start 2P", system-ui;
+    background: linear-gradient(90deg, #ff3700, #ffa600);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#gameMenu {
+    transition: transform 0.3s ease;
+    margin: 10% 0 10% 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 180%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#gameMenu a {
+    color: #e0faff;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#gameMenu a:hover {
+    transform: scale(1.1);
+    color: #ff3300b7;
+    text-shadow:
+        0 0 5px #ff7b29c7,
+        0 0 10px #ff7b29c7,
+        0 0 20px #ff7b29c7;
+}
+
+#profilWindow {
+    transition: transform 0.3s ease;
+    background-color: rgb(43, 43, 43);
+    margin: 1% 1% 0 85%;
+    border-radius: 5%;
+    padding: 0.7%;
+}
+
+#profilWindow:hover {
+    transform: scale(1.1);
+    box-shadow: 
+        0 0 5px #ff7b29c7,
+        0 0 10px #ff7b29c7,
+        0 0 20px #ff7b29c7;;
+}
+
+#profilWindow img {
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    float: left;
+}
+
+#profilWindow p {
+    padding-left: 50%;
+}
+
+#nickname {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+footer {
+    background-color: rgb(43, 43, 43);
+    padding: 2%;
+}
+
+#bottom {
+    margin-top: auto;
+    text-align: center;
+}
+
+footer p {
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
